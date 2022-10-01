@@ -1,6 +1,6 @@
 # uni-vite-vue3-project-basis-template
 - [Github](https://github.com/itmanyong/uni-vite-vue3-project-basis-template)
-- [uniapp插件市场]()
+- [uniapp插件市场](https://ext.dcloud.net.cn/plugin?id=9682)
 
 ## ✨ Features
 
