@@ -1,9 +1,9 @@
 <!--
- * @FilePath: \uni-preset-vue-vite\src\App.vue
+ * @FilePath: \uni-vite-vue3-project-basis-template\src\App.vue
  * @Date: 2022-10-01 21:03:09
  * @Author: itmanyong@gmail.com
  * @LastEditors: itmanyong@gmail.com
- * @LastEditTime: 2022-10-02 00:22:53
+ * @LastEditTime: 2022-10-02 07:51:43
  * @Description: 
 -->
 <script setup>

@@ -1,9 +1,9 @@
 /*
- * @FilePath: \uni-preset-vue-vite\vite.config.js
+ * @FilePath: \经销商版本\code\vite.config.js
  * @Date: 2022-10-01 21:03:09
  * @Author: itmanyong@gmail.com
  * @LastEditors: itmanyong@gmail.com
- * @LastEditTime: 2022-10-02 03:26:43
+ * @LastEditTime: 2022-10-02 06:55:09
  * @Description:
  */
 import path from 'path'
@@ -47,6 +47,10 @@ export default defineConfig(({ mode }) => {
         compress: {
           drop_console: true,
         },
+      },
+      rollupOptions: {
+        // 防止构建因为这东西出错
+        external: ['regenerator-runtime'],
       },
     },
   }

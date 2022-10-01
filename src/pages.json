@@ -1,9 +1,15 @@
 {
+	"easycom":{
+		"autoscan": true,
+		"custom":{
+			"^(.*)$":"src/components/$1/index.vue"
+		}
+	},
 	"pages": [
 		{
 			"path": "pages/home",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "home"
 			}
 		}
 	],
