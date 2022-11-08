@@ -2,6 +2,7 @@
   "name": "uni-vite-vue3-project-basis-template",
   "version": "0.0.1",
   "scripts": {
+    "ia": "pnpm install --shamefully-hoist",
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
     "dev:app-ios": "uni -p app-ios",

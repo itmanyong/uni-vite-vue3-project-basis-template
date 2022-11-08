@@ -54,16 +54,16 @@ function useRequest(urlPath = '', options = {}) {
     } = options;
 
     const loading = ref(false); // 是否请求中
-    const error = ref(null); // 错误信息
-    const data = ref(null); // 请求数据
-    const status = ref(null); // 请求状态
-    const cookies = ref(null); // 请求cookies
-    const headers = ref(null); // 请求头
-    const errMsg = ref(null); // 错误信息
+    const error = ref(); // 错误信息
+    const data = ref({}); // 请求数据
+    const status = ref(); // 请求状态
+    const cookies = ref(); // 请求cookies
+    const headers = ref(); // 请求头
+    const errMsg = ref(); // 错误信息
 
     const count = ref(0); // 请求次数
     const retryCount = ref(0); // 重试次数
-    const http = ref(null); // 请求实例
+    const http = ref(); // 请求实例
     // 清除缓存
     const clear = () => {
         _cache.has(id) && _cache.delete(id);

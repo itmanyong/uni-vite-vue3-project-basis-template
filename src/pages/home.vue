@@ -7,10 +7,17 @@
  * @Description: 
 -->
 <template>
-    <PageView></PageView>
+  <PageView>
+    <view>姓名：{{ data.data?.name || '' }}</view>
+  </PageView>
 </template>
 
-<script setup></script>
+<script setup>
+const { data } = useRequest('http://127.0.0.1:4523/m1/1095302-0-default/pet/1')
 
-<style lang="scss" scoped>
-</style>
+watchEffect(() => {
+  console.log(data.value)
+})
+</script>
+
+<style lang="scss" scoped></style>
